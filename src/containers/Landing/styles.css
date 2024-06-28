@@ -1,0 +1,45 @@
+#bg {
+  min-height: 100%;
+  background-image: url(http://i.imgur.com/tTKyQb0.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+#landingLogoContainer {
+    width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: ;
+ }
+ #pressStart {
+    padding-left: 175px
+    
+
+ }
+ #landingLogo {
+
+
+ }
+ #bg {
+
+}
+#bg img {
+ 
+}
+#pressStart {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #logoBalloon {
+    /* To do: Add media query to make site mobile friendly */
+  }
