@@ -37,6 +37,7 @@ const index = ({
         className="nes-btn"
         href={githubLink}
         target="_blank"
+        rel="noreferrer"
         id="portfolioRepoButton"
       >
         Github Repo
@@ -46,6 +47,7 @@ const index = ({
         className="nes-btn is-primary"
         href={deployedLink}
         target="_blank"
+        rel="noreferrer"
         id="portfolioDeployLinkButton"
       >
         Deployed Link

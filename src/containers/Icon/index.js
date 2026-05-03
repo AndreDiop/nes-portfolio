@@ -1,10 +1,12 @@
 import React from 'react';
 
-const index = ({icon}) => {
-    return (
-
-        <i className={icon} ></i>
-    );
+const Icon = ({ icon, label }) => {
+  return (
+    <div className="icon-item">
+      <i className={icon}></i>
+      {label && <p className="icon-label">{label}</p>}
+    </div>
+  );
 };
 
-export default index;
+export default Icon;

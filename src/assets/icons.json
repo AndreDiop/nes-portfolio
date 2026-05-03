@@ -1,29 +1,10 @@
 [
-  {
-    "icon": "fab fa-css3-alt fa-5x"
-  },
-  {
-    "icon": "fab fa-html5 fa-5x"
-  },
-  {
-    "icon": "fab fa-bootstrap fa-5x"
-  },
-  {
-    "icon": "fab fa-react fa-5x"
-  },
-  {
-    "icon": "fab fa-jquery fa-5x"
-  },
-  {
-    "icon": "fab fa-node fa-5x"
-  },
-  {
-    "icon": "fab fa-npm fa-5x"
-  },
-  {
-    "icon": "fab fa-css3-alt fa-5x"
-  },
-  {
-    "icon": "fab fa-js-square fa-5x"
-  }
+  { "icon": "fas fa-cogs fa-5x", "label": "Appian" },
+  { "icon": "fab fa-python fa-5x", "label": "Python" },
+  { "icon": "fab fa-aws fa-5x", "label": "AWS" },
+  { "icon": "fab fa-gitlab fa-5x", "label": "GitLab CI/CD" },
+  { "icon": "fab fa-react fa-5x", "label": "React" },
+  { "icon": "fab fa-js-square fa-5x", "label": "JavaScript" },
+  { "icon": "fab fa-node fa-5x", "label": "Node.js" },
+  { "icon": "fas fa-database fa-5x", "label": "SQL" }
 ]

@@ -2,7 +2,15 @@
     text-align: center;
 }
 
-i {
-    padding: 4px;
-    
+.icon-item {
+    display: inline-block;
+    padding: 12px 16px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.icon-label {
+    font-size: 0.55em;
+    margin-top: 8px;
+    margin-bottom: 0;
 }

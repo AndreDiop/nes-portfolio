@@ -1,26 +1,26 @@
 import React from "react";
 import "../About/styles.css";
 
-const index = () => {
+const About = () => {
   return (
     <div>
       <div className="nes-container is-rounded" id="aboutContainer">
         <h1>About Me</h1>
         <section className="message" id="aboutMessageSection">
-          <div className="nes-balloon " id="aboutBalloon">
+          <div className="nes-balloon" id="aboutBalloon">
             <p>
-              My name is Andre Diop and I am an Atlanta based Full Stack
-              Developer.
-              I am responsible for all parts of the development lifecycle and
-              bring a creative and aesthetic touch to all projects.
+              I'm a Full Stack Developer in Atlanta building enterprise workflow
+              automation and cloud-native applications. I specialize in Appian,
+              Python, and AWS — designing systems that cut manual overhead and
+              ship reliably through GitLab CI/CD pipelines.
             </p>
           </div>
           <div className="nes-balloon from-left" id="aboutBalloonLeft">
             <p>
-              Aside from deploying awesomely responsive mobile first websites
-              and applications, I can be found training in Brazilian Jiu Jitsu
-              (I'm a blue belt), playing Settlers of Catan (I'm unstoppable) or
-              trying to master the Aerobie Orbiter (it's amazing!).
+              Off the clock you'll find me on the mats training Brazilian
+              Jiu-Jitsu (blue belt, working on it), grinding Settlers of Catan
+              until no one wants to play with me, or arguing that the Aerobie
+              Orbiter is the greatest invention known to humanity.
             </p>
           </div>
         </section>
@@ -37,4 +37,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default About;
