@@ -45,6 +45,16 @@ or through the Github repository below.
 [Link to Github repository](https://github.com/AndreDiop/my-portfolio)
 
 
+- Clone to local and navigate to the root directory `git clone https://github.com/AndreDiop/react-portfolio.git`
+
+
+- install the dependancies`npm install`
+
+
+- run the protfolio locally `npm start`
+
+
+
 ## Usage
 
 This is a living document and will be where I display my learned skills of web development. Visitors will be able to reach me through a variety of mediums including; email, telephone, Linkedin, Github, and Twitter
