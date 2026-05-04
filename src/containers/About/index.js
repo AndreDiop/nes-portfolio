@@ -9,11 +9,11 @@ const About = () => {
         <section className="message" id="aboutMessageSection">
           <div className="nes-balloon" id="aboutBalloon">
             <p>
-              I'm a Software Developer at Fannie Mae, coordinating application
-              deployments across test, staging, and production using Jenkins and
-              UCD. I own incident response, pipeline support, and platform
-              reliability for Appian-based business-critical systems — the kind
-              of work that keeps production running at 2am.
+              I'm a Software Developer at Fannie Mae (2021–present), coordinating
+              application deployments across test, staging, and production using
+              Jenkins and UCD. I own incident response, pipeline support, and
+              platform reliability for Appian-based business-critical systems —
+              the kind of work that keeps production running at 2am.
             </p>
           </div>
           <div className="nes-balloon from-left" id="aboutBalloonLeft">
