@@ -21,15 +21,17 @@ const index = ({
       <p> {projectInfo} </p>
       <hr />
 
-      <a href="#" id="badge" className="nes-badge">
+      <span className="nes-badge">
         <span className="is-warning">{tech1}</span>
-      </a>
-      <a href="#" id="badge" className="nes-badge">
+      </span>
+      <span className="nes-badge">
         <span className="is-warning">{tech2}</span>
-      </a>
-      <a href="#" id="badge" className="nes-badge">
-        <span className="is-warning">{tech3}</span>
-      </a>
+      </span>
+      {tech3 && (
+        <span className="nes-badge">
+          <span className="is-warning">{tech3}</span>
+        </span>
+      )}
 
       <hr />
 
