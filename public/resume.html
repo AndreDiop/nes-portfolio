@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andre Diop — Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #111;
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 28px 40px;
+    }
+
+    @media print {
+      body { margin: 0; padding: 20px 28px; }
+      .print-btn { display: none; }
+    }
+
+    .print-btn {
+      display: block;
+      margin: 0 auto 24px;
+      padding: 8px 20px;
+      background: #111;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 10pt;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      font-size: 20pt;
+      text-align: center;
+      margin-bottom: 5px;
+      letter-spacing: 0.3px;
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 9.5pt;
+      color: #333;
+      margin-bottom: 18px;
+    }
+    .contact a { color: #333; text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      border-bottom: 1.5px solid #111;
+      margin: 14px 0 6px;
+      padding-bottom: 2px;
+    }
+
+    .summary { font-size: 10.5pt; margin-bottom: 2px; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .job-title { font-weight: bold; font-size: 10.5pt; }
+    .job-date { font-size: 10pt; color: #444; white-space: nowrap; margin-left: 12px; }
+    .job-location { font-size: 10pt; color: #555; margin-bottom: 4px; }
+
+    ul { padding-left: 18px; margin-bottom: 10px; }
+    li { margin-bottom: 3px; font-size: 10.5pt; }
+
+    .skill-row { font-size: 10.5pt; margin-bottom: 3px; }
+    .skill-row strong { min-width: 175px; display: inline-block; }
+
+    .project-entry { margin-bottom: 5px; font-size: 10.5pt; }
+    .project-entry a { color: #111; }
+
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5pt;
+      margin-bottom: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn" onclick="window.print()">Download / Print as PDF</button>
+
+  <h1>Andre Diop</h1>
+  <div class="contact">
+    itsjustAndre@gmail.com &nbsp;·&nbsp;
+    <a href="https://linkedin.com/in/andre-diop-998754200" target="_blank">linkedin.com/in/andre-diop-998754200</a> &nbsp;·&nbsp;
+    <a href="https://github.com/AndreDiop" target="_blank">github.com/AndreDiop</a> &nbsp;·&nbsp;
+    <a href="https://andrediop.github.io/react-portfolio" target="_blank">andrediop.github.io/react-portfolio</a>
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="section-title">Summary</div>
+  <p class="summary">
+    Navy veteran and software developer with hands-on experience supporting production application deployments,
+    CI/CD pipelines, and enterprise platform operations. Currently supporting business-critical financial systems
+    at Fannie Mae using Jenkins, UrbanCode Deploy, GitLab, and Appian — coordinating multi-environment releases,
+    owning production incident response, and reducing manual deployment overhead through process improvement
+    and documentation.
+  </p>
+
+  <!-- SKILLS -->
+  <div class="section-title">Technical Skills</div>
+  <div class="skill-row"><strong>Platform &amp; DevOps:</strong> Jenkins, UrbanCode Deploy (UCD), GitLab CI/CD, Bitbucket, Jira</div>
+  <div class="skill-row"><strong>BPM &amp; Enterprise:</strong> Appian</div>
+  <div class="skill-row"><strong>Languages:</strong> JavaScript (ES6+), Python, SQL, HTML5, CSS3</div>
+  <div class="skill-row"><strong>Frontend:</strong> React, Bootstrap</div>
+  <div class="skill-row"><strong>Backend:</strong> Node.js, Express</div>
+  <div class="skill-row"><strong>Databases:</strong> MySQL, MongoDB</div>
+  <div class="skill-row"><strong>Cloud:</strong> AWS</div>
+
+  <!-- EXPERIENCE -->
+  <div class="section-title">Experience</div>
+
+  <div class="job-header">
+    <span class="job-title">Fannie Mae — Software Developer, Appian / DevOps Support</span>
+    <span class="job-date">2021 – Present</span>
+  </div>
+  <div class="job-location">Reston, VA</div>
+  <ul>
+    <li>Coordinate application releases across test, staging, and production environments using Jenkins and
+        UrbanCode Deploy, partnering with release managers to ensure zero-disruption rollouts on
+        business-critical mortgage processing systems</li>
+    <li>Own sequencing and validation of database schema changes across multi-environment pipelines,
+        preventing deployment failures caused by out-of-order SQL script execution</li>
+    <li>Serve as L1/L2 production support for Appian applications — triaging incidents, isolating root causes,
+        and escalating critical issues to minimize downtime on enterprise financial systems</li>
+    <li>Administer Appian user access and entitlements, enforcing least-privilege access controls across
+        production and non-production environments</li>
+    <li>Operate and maintain CI/CD toolchain (GitLab, Bitbucket, Jenkins, UCD, Jira) to manage branching
+        strategies, track releases, and sustain deployment pipeline health</li>
+    <li>Drive process improvements reducing manual deployment overhead through runbook creation,
+        documentation, and incremental automation initiatives</li>
+  </ul>
+
+  <div class="job-header">
+    <span class="job-title">The Commerce Club — Sous Chef</span>
+    <span class="job-date">2018 – 2020</span>
+  </div>
+  <div class="job-location">Atlanta, GA</div>
+  <ul>
+    <li>Led back-of-house operations for a high-volume members-only club, managing a team of 11 and
+        coordinating with executive leadership on inventory, scheduling, and staff development</li>
+  </ul>
+
+  <!-- PROJECTS -->
+  <div class="section-title">Projects</div>
+  <div class="project-entry">
+    <strong>Community Chest</strong> — Civic tech app enabling community fridge management and mutual aid
+    resource tracking. React, Express, Node.js, MongoDB &nbsp;
+    <a href="https://github.com/AndreDiop/Community-Chest" target="_blank">github.com/AndreDiop/Community-Chest</a>
+  </div>
+  <div class="project-entry">
+    <strong>Tradecraft Messenger</strong> — Ephemeral messaging app with self-destructing message instances
+    and stateless REST API design. Node.js, Express &nbsp;
+    <a href="https://github.com/AndreDiop/Tradecraft-Messenger" target="_blank">github.com/AndreDiop/Tradecraft-Messenger</a>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section-title">Education</div>
+  <div class="edu-row">
+    <span><strong>Certificate, Full Stack Web Development</strong> — Georgia Technical Institute</span>
+    <span>Atlanta, GA</span>
+  </div>
+  <div class="edu-row">
+    <span><strong>Bachelor of Science, Middle-Level Education</strong> — Georgia State University</span>
+    <span>Atlanta, GA</span>
+  </div>
+
+</body>
+</html>

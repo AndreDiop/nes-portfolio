@@ -2,21 +2,19 @@ import React from "react";
 import "../Skills/styles.css";
 import Icons from "../../assets/icons.json";
 import Icon from "../Icon";
-const index = () => {
-  console.log(Icons);
+
+const Skills = () => {
   return (
     <div>
       <div className="nes-container is-rounded" id="skillsContainer">
         <h1>Skills</h1>
-
-        <p>Languages and frameworks that I use</p>
-
-        {Icons.map((icon) => (
-          <Icon {...icon} />
+        <p>Tools and technologies I work with daily</p>
+        {Icons.map((icon, i) => (
+          <Icon key={i} {...icon} />
         ))}
       </div>
     </div>
   );
 };
 
-export default index;
+export default Skills;

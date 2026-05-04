@@ -1,26 +1,27 @@
 import React from "react";
 import "../About/styles.css";
 
-const index = () => {
+const About = () => {
   return (
     <div>
       <div className="nes-container is-rounded" id="aboutContainer">
         <h1>About Me</h1>
         <section className="message" id="aboutMessageSection">
-          <div className="nes-balloon " id="aboutBalloon">
+          <div className="nes-balloon" id="aboutBalloon">
             <p>
-              My name is Andre Diop and I am an Atlanta based Full Stack
-              Developer.
-              I am responsible for all parts of the development lifecycle and
-              bring a creative and aesthetic touch to all projects.
+              I'm a Software Developer at Fannie Mae (2021–present), coordinating
+              application deployments across test, staging, and production using
+              Jenkins and UCD. I own incident response, pipeline support, and
+              platform reliability for Appian-based business-critical systems —
+              the kind of work that keeps production running at 2am.
             </p>
           </div>
           <div className="nes-balloon from-left" id="aboutBalloonLeft">
             <p>
-              Aside from deploying awesomely responsive mobile first websites
-              and applications, I can be found training in Brazilian Jiu Jitsu
-              (I'm a blue belt), playing Settlers of Catan (I'm unstoppable) or
-              trying to master the Aerobie Orbiter (it's amazing!).
+              Off the clock you'll find me on the mats training Brazilian
+              Jiu-Jitsu (blue belt, working on it), grinding Settlers of Catan
+              until no one wants to play with me, or arguing that the Aerobie
+              Orbiter is the greatest invention known to humanity.
             </p>
           </div>
         </section>
@@ -37,4 +38,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default About;
