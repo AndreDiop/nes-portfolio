@@ -30,7 +30,7 @@ const About = () => {
           src="https://media.giphy.com/media/7eW3Rof21dV3MZ948r/giphy.gif"
           width="200"
           height="200"
-          alt="8-bit stylized picture of Andre Diop"
+          alt="8-bit stylized portrait of Andre Diop"
           id="andrePicture"
         />
       </div>
