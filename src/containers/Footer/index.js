@@ -6,10 +6,7 @@ const index = () => {
     <div id="contactContainer">
       <p className="nes-balloon nes-pointer">
         ANDRE DIOP <br />
-        ItsJustAndre@gmail.com <br />
-        (678) 310 - 5409
-        <br />
-        Atlanta Georgia
+        ItsJustAndre@gmail.com
       </p>
       <br/>
       <a href="https://twitter.com/theandrediop">

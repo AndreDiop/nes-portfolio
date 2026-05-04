@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="title" id="navbarTitle">
         <a href="#hero">
           <h1 id="navbarName">Andre Diop</h1>
-          <p>Software Developer</p>
+          <p>Software Developer · Appian · DevOps</p>
         </a>
       </div>
       <a href="#about" className="nes-btn">
@@ -26,7 +26,7 @@ const Navbar = () => {
       </a>
       <a
         className="nes-btn is-error"
-        href="https://drive.google.com/file/d/1ijNElXMM7rsAbjqAI2iX8OoL5N1QE24Z/view?usp=sharing"
+        href={`${process.env.PUBLIC_URL}/resume.html`}
         target="_blank"
         rel="noreferrer"
       >

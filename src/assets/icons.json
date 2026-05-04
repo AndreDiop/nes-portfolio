@@ -3,6 +3,8 @@
   { "icon": "fab fa-python fa-5x", "label": "Python" },
   { "icon": "fab fa-aws fa-5x", "label": "AWS" },
   { "icon": "fab fa-gitlab fa-5x", "label": "GitLab CI/CD" },
+  { "icon": "fas fa-tools fa-5x", "label": "Jenkins" },
+  { "icon": "fab fa-bitbucket fa-5x", "label": "Bitbucket" },
   { "icon": "fab fa-react fa-5x", "label": "React" },
   { "icon": "fab fa-js-square fa-5x", "label": "JavaScript" },
   { "icon": "fab fa-node fa-5x", "label": "Node.js" },
