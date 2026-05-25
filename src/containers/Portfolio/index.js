@@ -1,18 +1,39 @@
-import React from "react";
-import PortfolioCard from "../PortfolioCard";
-import Works from "../../assets/data.json";
-import "../Portfolio/styles.css"
-const index = () => {
+import React from 'react';
+import Works from '../../assets/data.json';
+
+const Portfolio = () => {
   return (
-    <div>
-      <div className="nes-container is-rounded" id="portfolioContainer">
-        <h1>Portfolio</h1>
-        {Works.map((data) => (
-          <PortfolioCard key={data.id} {...data} />
-        ))}
+    <section id="projects">
+      <div className="container">
+        <p className="section-cmd">
+          <span className="prompt">$</span> ls projects/
+        </p>
+        <hr className="section-divider" />
+
+        <div className="projects-block">
+          {Works.map((project) => (
+            <div className="project-row" key={project.id}>
+              <span className="project-name">{project.name}/</span>
+              <span className="project-desc">{project.projectInfo}</span>
+              <span className="project-stack">
+                {[project.tech1, project.tech2, project.tech3]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </span>
+              <a
+                className="project-link"
+                href={project.githubLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                github ↗
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default index;
+export default Portfolio;

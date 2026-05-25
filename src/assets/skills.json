@@ -1,0 +1,30 @@
+[
+  {
+    "category": "platform & devops/",
+    "items": ["Jenkins", "UrbanCode Deploy", "GitLab CI/CD", "Bitbucket", "Jira", "Terraform"]
+  },
+  {
+    "category": "bpm & enterprise/",
+    "items": ["Appian"]
+  },
+  {
+    "category": "languages/",
+    "items": ["JavaScript (ES6+)", "Python", "SQL", "HTML5", "CSS3"]
+  },
+  {
+    "category": "frontend/",
+    "items": ["React", "Bootstrap"]
+  },
+  {
+    "category": "backend/",
+    "items": ["Node.js", "Express"]
+  },
+  {
+    "category": "databases/",
+    "items": ["MySQL", "MongoDB"]
+  },
+  {
+    "category": "cloud/",
+    "items": ["AWS"]
+  }
+]

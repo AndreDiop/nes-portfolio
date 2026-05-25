@@ -1,27 +1,15 @@
-import React from "react";
-import ".././Footer/styles.css"
+import React from 'react';
 
-const index = () => {
+const user = 'itsjustAndre';
+const domain = 'gmail.com';
+
+const Footer = () => {
   return (
-    <div id="contactContainer">
-      <p className="nes-balloon nes-pointer">
-        ANDRE DIOP <br />
-        ItsJustAndre@gmail.com
-      </p>
-      <br/>
-      <a href="https://twitter.com/theandrediop">
-            <i className="nes-icon twitter is-medium" id="twitterIcon"></i>
-          </a>
-          <a href="https://github.com/AndreDiop">
-            <i className="nes-icon github is-medium" id="githubIcon"></i>
-          </a>
-
-          <a href="https://www.linkedin.com/in/andre-diop-998754200/">
-            <i className="nes-icon linkedin is-medium" id="linkedinIcon"></i>
-          </a>
-    </div>
-    
+    <footer id="footer">
+      <span className="muted">Andre Diop · {new Date().getFullYear()}</span>
+      <span className="muted">{`${user}@${domain}`}</span>
+    </footer>
   );
 };
 
-export default index;
+export default Footer;

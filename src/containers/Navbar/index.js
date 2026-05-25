@@ -1,37 +1,26 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav
-      className="nes-container is-rounded with-title is-centered"
-      id="navbarContainer"
-    >
-      <div className="title" id="navbarTitle">
-        <a href="#hero">
-          <h1 id="navbarName">Andre Diop</h1>
-          <p>Software Developer · Appian · DevOps</p>
+    <nav id="navbar">
+      <a className="nav-brand" href="#hero">
+        <span className="prompt">&gt;</span> andre-diop
+      </a>
+      <div className="nav-links">
+        <a href="#about">about</a>
+        <a href="#experience">experience</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+        <a
+          className="nav-resume"
+          href={`${process.env.PUBLIC_URL}/resume.html`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          resume →
         </a>
       </div>
-      <a href="#about" className="nes-btn">
-        About
-      </a>
-      <a href="#skills" className="nes-btn is-primary">
-        Skills
-      </a>
-      <a href="#projects" className="nes-btn is-success">
-        Projects
-      </a>
-      <a href="#contact" className="nes-btn is-warning">
-        Contact
-      </a>
-      <a
-        className="nes-btn is-error"
-        href={`${process.env.PUBLIC_URL}/resume.html`}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Resume
-      </a>
     </nav>
   );
 };
